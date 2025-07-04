@@ -34,18 +34,7 @@ Implementar una arquitectura de microservicios funcional que permita:
 - Artículos sobre Eureka, Config Server y API Gateway.
 - Herramienta Spring Initializr para generar el esqueleto del proyecto.
 ## 7. Procedimiento:
-### Paso 1: Crear los módulos del proyecto
-```
-mkdir config-server
-mkdir eureka-server
-mkdir api-gateway
-mkdir servicio-clientes
-mkdir servicio-creditos
-mkdir servicio-notificaciones
-````
-### Evidencia:
-<imag!
-### Paso 2: Generar el proyecto base
+### Paso 1: Generar el proyecto base
 Usando Spring Initializr, se generó el proyecto con las siguientes dependencias:
 - Spring Boot DevTools
 - Eureka Discovery Client
@@ -56,19 +45,34 @@ Configuración:
 - Empaquetado: JAR
 - Versión de Java: 17
 ### Evidencia:
-<imag!
+<imag!![1+](https://github.com/user-attachments/assets/4de50b08-abec-4dbd-9030-e38df67d1249)
+
+### Paso 2: Crear los módulos del proyecto
+```
+mkdir config-server
+mkdir eureka-server
+mkdir api-gateway
+mkdir servicio-clientes
+mkdir servicio-creditos
+mkdir servicio-notificaciones
+````
+### Evidencia:
+<imag!![2](https://github.com/user-attachments/assets/b9b170e1-64dc-4725-a1d3-6a8471dc9c1e)
+
 ### Paso 3: Abrir y configurar el proyecto
 Se intentó navegar a la carpeta del proyecto con cd demo, pero se presentó un error de ruta.
 Luego, se abrió el proyecto con code . y se intentó ejecutar con Maven, mostrando error ya que Maven no estaba instalado.
 ### Evidencia:
-<imag!
+<imag!![2 1](https://github.com/user-attachments/assets/7d8e3510-1ca0-47b4-af18-09eef55daf44)
+
 ### Paso 4: Instalar Maven
 Se usó Chocolatey en PowerShell para instalar Maven con el comando:
 ```
 choco install maven -y
 ````
 ### Evidencia:
-<imag
+<imag![3](https://github.com/user-attachments/assets/8c658a24-3840-4a2d-b7af-408b0760f8c8)
+
 ### Paso 5: Ejecución del proyecto Spring Boot con Maven
 Una vez instalado Maven, se procede a ejecutar el proyecto Spring Boot ubicado en el directorio:
 ```
@@ -79,7 +83,8 @@ Esto se hace con el comando:
 mvn spring-boot:run
 ````
 ### Evidencia:
-<imag
+<imag![4](https://github.com/user-attachments/assets/dc9d0420-d299-4e84-8bbb-bce764de2942)
+
 ### Paso 6: 
 ## 8. Resultado esperado:
 ### Evidencia:

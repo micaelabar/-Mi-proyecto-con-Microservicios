@@ -1,38 +1,37 @@
-# Mi proyecto con Microservicios
+# Consumo Rest Microservicios
 ## 1. Tiempo de duración:
-El tiempo estimado para el desarrollo del proyecto fue de 2 horas, desde la configuración del entorno hasta la ejecución inicial de los microservicios.
+El tiempo que me tomo en realizar es de 2 horas.
 ## 2. Fundamentos:
-Este proyecto se basa en la arquitectura de microservicios, que permite el desarrollo de aplicaciones distribuidas compuestas por servicios independientes. Cada microservicio es desplegado de forma autónoma y se comunica con los demás mediante protocolos ligeros como HTTP (REST).
-Los componentes clave aplicados en este proyecto son:
-- Separación de responsabilidades: Cada servicio maneja una lógica de --negocio específica (clientes, créditos, notificaciones).
-- Despliegue independiente: Los servicios se pueden ejecutar y escalar por separado.
-- Eureka Server (Servicio descubridor): Permite registrar y localizar microservicios dinámicamente.
-- API Gateway: Punto de entrada único para el enrutamiento, seguridad y balanceo de carga.
-- Config Server: Centraliza la configuración de todos los servicios.
+La arquitectura de microservicios consiste en construir un sistema como un conjunto de servicios pequeños e independientes que se comunican principalmente mediante protocolos ligeros como HTTP/REST.
+El consumo REST entre microservicios permite que cada componente del sistema solicite o envíe datos a otros servicios de forma estructurada y controlada.
+En este proyecto práctico, se aplica esta arquitectura, integrando también conceptos como:
+- Separación de responsabilidades: Cada microservicio se encarga de una función específica.
+- Despliegue independiente: Los microservicios se ejecutan de manera autónoma, facilitando actualizaciones y escalabilidad.
+-  API Gateway: Punto de entrada único para el sistema, que enruta y gestiona las solicitudes.
+-  Servicio descubridor: Permite localizar dinámicamente los servicios sin necesidad de configuraciones manuales.
 ## 3. Conocimientos previos
-Para el desarrollo del proyecto fue necesario contar con conocimientos en:
-- Java y Spring Boot.
-- Arquitectura de microservicios.
-- Uso de herramientas como Maven, Gradle y Visual Studio Code.
-- Manejo de dependencias y configuración de servicios con Spring Cloud.
+- Conceptos básicos de microservicios.
+- Programación en NestJS.
+- Conocimiento de protocolos REST (métodos GET, POST, PUT, DELETE).
+- Uso básico de Postman o herramientas similares para probar APIs.
+- Manejo básico de contenedores con Docker (opcional).
 ## 4. Objetivo a alcanzar
-Implementar una arquitectura de microservicios funcional que permita:
-- La creación de servicios desacoplados y escalables.
-- El consumo de servicios REST mediante llamadas HTTP.
-- La gestión centralizada de configuraciones.
-- La administración dinámica de rutas y servicios con ayuda de Eureka y el API Gateway.
+-  Implementar el consumo REST entre los microservicios del sistema.
+-  Validar la comunicación correcta mediante el API Gateway.
+-  Aplicar los principios de separación de responsabilidades y despliegue independiente en el sistema.
+-  Demostrar que el sistema es capaz de integrarse y funcionar bajo la arquitectura de microservicios.
 ## 5. Equipo necesario
-- Computadora con Windows 10 o superior.
-- Conexión a internet.
-- Entorno de desarrollo (Visual Studio Code, JDK 17).
-- Administrador de dependencias (Maven o Gradle).
-- Terminal de comandos o PowerShell.
-- Chocolatey para la instalación de Maven.
+- Computadora con Visual Studio Code o cualquier IDE compatible.
+- Navegador web.
+- Docker (para el despliegue de microservicios, opcional).
+- Postman o Insomnia (para pruebas de los endpoints REST).
+- Conexión a internet (para documentación y pruebas externas si es necesario).
 ## 6. Material de apoyo:
-- Documentación oficial de Spring Boot y Spring Cloud.
-- Tutoriales de arquitectura de microservicios.
-- Artículos sobre Eureka, Config Server y API Gateway.
-- Herramienta Spring Initializr para generar el esqueleto del proyecto.
+- Documentación oficial de NestJS: https://docs.nestjs.com
+- Ejemplos de APIs REST: https://restfulapi.net/
+- Guía de microservicios: https://microservices.io/
+- Documentación de Postman: https://learning.postman.com/
+- Código fuente del proyecto pienso.
 ## 7. Procedimiento:
 ### Paso 1: Generar el proyecto base
 Usando Spring Initializr, se generó el proyecto con las siguientes dependencias:

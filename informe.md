@@ -1,4 +1,4 @@
-# -Mi proyecto con Microservicios
+# Mi proyecto con Microservicios
 ## 1. Tiempo de duración:
 El tiempo estimado para el desarrollo del proyecto fue de 2 horas, desde la configuración del entorno hasta la ejecución inicial de los microservicios.
 ## 2. Fundamentos:

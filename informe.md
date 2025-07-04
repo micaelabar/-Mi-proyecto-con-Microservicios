@@ -125,9 +125,11 @@ Clase principal: ClientesServiceApplication.java
 ### Evidencia:
 <imag!![9](https://github.com/user-attachments/assets/5066d59f-7625-4627-a1d0-76f21f8dd4e3)
 
-### Paso 10: 
+### Paso 10: Registro exitoso en Eureka
+Significa que el cliente Eureka ya está comunicándose correctamente con el servidor Eureka ubicado en:
 ### Evidencia:
-<imag
+<imag![10](https://github.com/user-attachments/assets/51ff9d25-0794-42f1-8235-d44d4b584b7f)
+
 ## 8. Resultado esperado:
 - Que los microservicios puedan registrarse en Eureka.
 - Que desde el API Gateway se pueda consumir REST de forma centralizada.

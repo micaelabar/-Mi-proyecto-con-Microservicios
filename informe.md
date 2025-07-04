@@ -102,14 +102,47 @@ com.cooperativa.sanjuan
 ### Evidencia:
 <imag![7](https://github.com/user-attachments/assets/a3e11f8f-97ce-4a78-b8a9-2b078e465da3)
 
-### Paso 8: 
-## 8. Resultado esperado:
+### Paso 8: Creación del microservicio cliente (clientes-service)
+Para crear el microservicio clientes-service, se utilizó Spring Initializr con los siguientes parámetros:
+```
+Configuración del proyecto:
+Project: Gradle - Groovy
+Language: Java
+Spring Boot: 3.5.3
+Group: com.cooperativa
+Artifact: clientes-service
+Name: clientes-service
+Package name: com.cooperativa.clientes-service
+Java version: 17
+Packaging: Jar
+````
+### Evidencia:
+<imag!![8](https://github.com/user-attachments/assets/40683cde-1b0b-40b9-9243-2a77937f361b)
+### Paso 9: Configuración del cliente Eureka (clientes-service)
+El microservicio clientes-service fue creado con Spring Boot y configurado como un cliente Eureka, lo que le permite registrarse automáticamente en el servidor Eureka.
+
+Clase principal: ClientesServiceApplication.java
+### Evidencia:
+<imag!![9](https://github.com/user-attachments/assets/5066d59f-7625-4627-a1d0-76f21f8dd4e3)
+
+### Paso 10: 
 ### Evidencia:
 <imag
-
+## 8. Resultado esperado:
+- Que los microservicios puedan registrarse en Eureka.
+- Que desde el API Gateway se pueda consumir REST de forma centralizada.
+- Que cada servicio pueda ejecutarse de manera independiente.
+- Que el Config Server permita la gestión centralizada de propiedades de cada servicio.
 ## 9. Conclusión:
-
+Este ejercicio práctico permitió aplicar los conceptos fundamentales de la arquitectura de microservicios en un entorno real. Se observaron las ventajas del desarrollo modular, el despliegue independiente y el uso de herramientas clave como Eureka, Config Server y API Gateway.
+También se evidenció la importancia de contar con el entorno correctamente configurado (Maven, Java, Visual Studio Code) para evitar errores en la ejecución del proyecto.
 ## 10. Bibliografía
+- Spring Boot Documentation: https://docs.spring.io/spring-boot/docs/current/reference/html/
+- Spring Cloud Netflix Eureka: https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html
+- Baeldung: "Introduction to Spring Cloud Gateway"
+- Chocolatey Documentation: https://docs.chocolatey.org/
+- YouTube – Curso Spring Boot Microservicios (varios autores)
+
 
 
 

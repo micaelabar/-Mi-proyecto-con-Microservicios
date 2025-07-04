@@ -84,8 +84,25 @@ mvn spring-boot:run
 ````
 ### Evidencia:
 <imag![4](https://github.com/user-attachments/assets/dc9d0420-d299-4e84-8bbb-bce764de2942)
+<imag!![5](https://github.com/user-attachments/assets/78b6c5f4-1a65-460d-9329-8bd9369cdfcb)
 
-### Paso 6: 
+### Paso 6: Verificación del panel de Eureka en el navegador
+Una vez iniciado correctamente el servidor Eureka, se accede a la interfaz gráfica de Eureka mediante un navegador web, ingresando la siguiente URL:
+```
+http://localhost:8761
+````
+### Evidencia:
+<imag![6](https://github.com/user-attachments/assets/c8482ed8-bca4-4ce7-9c36-2d6814c9e014)
+
+### Paso 7: Implementación del servidor Eureka en el código fuente
+Para habilitar un servidor Eureka con Spring Boot, se creó una clase principal llamada EurekaServerApplication.java, la cual se encuentra dentro del paquete:
+```
+com.cooperativa.sanjuan
+````
+### Evidencia:
+<imag![7](https://github.com/user-attachments/assets/a3e11f8f-97ce-4a78-b8a9-2b078e465da3)
+
+### Paso 8: 
 ## 8. Resultado esperado:
 ### Evidencia:
 <imag

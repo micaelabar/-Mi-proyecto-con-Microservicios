@@ -1,6 +1,8 @@
 # Consumo Rest Microservicios
 ## Introducción:
-El presente informe ha sido elaborado por Micaela Barbecho y Pablo Sari, como parte de las actividades prácticas del Proyecto PIENSA, enfocado en el fortalecimiento de competencias en el desarrollo de sistemas distribuidos bajo la arquitectura de microservicios.
+El presente informe corresponde al trabajo realizado dentro del Proyecto PIENSA, desarrollado por Micaela Barbecho y Pablo Sari. El objetivo principal fue aplicar los conceptos fundamentales de arquitectura de microservicios, específicamente el consumo REST entre microservicios, integrando además herramientas como Eureka, API Gateway y Config Server.
+
+El trabajo se dividió de manera colaborativa, donde Pablo Sari se encargó de toda la parte técnica y de programación, abarcando la configuración, desarrollo y pruebas de los microservicios y su respectiva comunicación. Por su parte, Micaela Barbecho se encargó de la elaboración del presente informe técnico, en el cual se detallan los fundamentos teóricos, procedimiento paso a paso, evidencias gráficas, resultados obtenidos y las conclusiones del proyecto.
 ## 1. Tiempo de duración:
 El tiempo que me tomo en realizar es de 2 horas.
 ## 2. Fundamentos:

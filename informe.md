@@ -1,4 +1,6 @@
 # Consumo Rest Microservicios
+## Introducción:
+El presente informe ha sido elaborado por Micaela Barbecho y Pablo Sari, como parte de las actividades prácticas del Proyecto PIENSA, enfocado en el fortalecimiento de competencias en el desarrollo de sistemas distribuidos bajo la arquitectura de microservicios.
 ## 1. Tiempo de duración:
 El tiempo que me tomo en realizar es de 2 horas.
 ## 2. Fundamentos:

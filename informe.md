@@ -134,6 +134,11 @@ Significa que el cliente Eureka ya está comunicándose correctamente con el ser
 - Que desde el API Gateway se pueda consumir REST de forma centralizada.
 - Que cada servicio pueda ejecutarse de manera independiente.
 - Que el Config Server permita la gestión centralizada de propiedades de cada servicio.
+### Evidencia:
+<imag!![11](https://github.com/user-attachments/assets/74c22bb3-465a-4e2d-9db2-04132e3a04f6)
+
+<imag!![12](https://github.com/user-attachments/assets/f9448cd9-f9e5-44ef-8aa0-5ab421c1bcfe)
+
 ## 9. Conclusión:
 Este ejercicio práctico permitió aplicar los conceptos fundamentales de la arquitectura de microservicios en un entorno real. Se observaron las ventajas del desarrollo modular, el despliegue independiente y el uso de herramientas clave como Eureka, Config Server y API Gateway.
 También se evidenció la importancia de contar con el entorno correctamente configurado (Maven, Java, Visual Studio Code) para evitar errores en la ejecución del proyecto.

@@ -1,4 +1,4 @@
-# Consumo Rest Microservicios
+# Mi proyecto con Microservicios
 ## Introducción:
 El presente informe corresponde al trabajo realizado dentro del Proyecto PIENSA, desarrollado por Micaela Barbecho y Pablo Sari. El objetivo principal fue aplicar los conceptos fundamentales de arquitectura de microservicios, específicamente el consumo REST entre microservicios, integrando además herramientas como Eureka, API Gateway y Config Server.
 
